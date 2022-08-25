@@ -1,0 +1,19 @@
+<html style="background: linear-gradient(to top left, #ffccff 0%, #ffffcc 100%);">
+  
+<body>
+  <h1 style="background-color:#ffffff; font-size:60px;" align="center">ABOUT ME</></h1>
+</body>
+<p style="line-height:2em; text-align:center; background-color:#ffffff"> <a href="https://codermerlin.com/users/sophia-tran/Digital%20Portfolio/index.html">HOME</a>  <a href="https://codermerlin.com/users/sophia-tran/Digital%20Portfolio/aboutMe.html">ABOUT ME</a> <a href = "https://codermerlin.com/users/sophia-tran/Digital%20Portfolio/projects.html">PROJECTS</a>
+
+  <h3>ABOUT ME: </h3>
+  <p style="font-family:courier;">
+    Hello, my name is Sophia Tran. I am 16 yeard old and a junior at Allen High School. I am involved in multiple activities in and out of school, including orchestra and computer science. I am passionate in learning and love learning new concepts and tricks to further my knowlege of computer science.
+  </p>
+ <h3>DIGITAL PORTFOLIO: </h3>
+<p style="font-family:courier;">
+  My digital portfolio is important to me because it is a place where I can showcase myself and my accomplishments. Furthermore, it helps me stay organized as it contains everything in one clean place for anyone to view.
+</p>
+<h3>WHAT I'VE LEARNED: </h3>
+<p style="font-family:courier;"> This is my second year in a computer schience course. Last year I took computer science one. I really enjoyed this class as it taught me a lot and I made many memorable memories. Some things I learned in this class were boolean algebra and logic gates. I also learned about scope and arrays. In addition to this, we also learned about computer architecture and it's history. Ultimately, I learned useful knowedge in analysing, designing, and debugging code. </p>
+
+</html>
