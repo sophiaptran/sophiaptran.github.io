@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 
-<html lang="en" style="background: #FFD4CA">
+<html lang="en" style="background: #ffffff">
   <head>
     <link rel="stylesheet" href="mystyle.css">
-    <meta charset="utf-8">
+    <meta charset="utf-8" content="width=device-width, initial-scale=1">
     <title>home</title>
     <style>
       body {
@@ -11,19 +11,91 @@
       hr.solid {
 	  border-top: 2px solid #000;
       }
+
+      a:link, a:visited {
+	  float: right;
+	  background-color:#ffe2deff;
+	  color: black;
+	  padding: 15px 25px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+      }
+
+      a:hover, a:active {
+	  background-color: #f5aaa0ff;
+	  color: white;
+      }
+
+      .topnav {
+	  overflow: hidden;
+	  background-color: #ffe2deff;
+      }
+
+      .topnav a {
+	  float: right;
+	  background-color: #ffe2deff;
+	  color: black;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 20px;
+      }
+
+      .topnav a:hover {
+	  background-color: #f5aaa0ff;
+	  color: white;
+      }
+
+      .topnav a.active {
+	  background-color: #f5aaa0ff;
+	  color: white;
+      }
+      .norm a{
+	  float: left;
+	  background-color:#ffffff;
+	  color: black;
+	  text-align: center;
+	  text-decoration: none;
+      }
+      .norm a:hover{
+	  background-color: #e6e6e6;
+	  color: white;
+      }
+      
     </style>
   </head>
   <body>
-    <hr class="solid">
-    <h1 style="line-height:3em; background-color:#FAB3A2; font-size:80px; text-align:center"> <img src="photos/twoButterflies.png" alt="two butterflies" style="float:left"> SOPHIA TRAN  <img src="photos/girl.png" alt="girl" style="float:right"></h1>
-
-    <p style="font-size: 20px; line-height:2em; text-align:center; background-color:#FB977F"> <a href="index.html">HOME</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="aboutMe.html">ABOUT ME</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="classes.html">CLASSES</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="CS-I/CS-I.html"> CS-I </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="CS-II/CS-II.html"> CS-II </a> </p>
-
-    <br>
-    <hr class="solid">  
-    <h2 style="font-family:courier; font-size: 30px; text-align:center">Hello, wellcome to my digital portfolio...</h2>
-    <p style="font-family:courier; font-size: 30px; text-align:center"> You can view my GitHub <a href="https://github.com/sophiaptran/sophiaptran.github.io">here</a> </p>
-    <p style="font-family:courier; font-size: 30px; text-align:center"> You can view my digital portfolio <a href="https://sophiaptran.github.io/index.html">here</a> </p> 
-    
+    <div style="background-color: #ffe2deff; padding-right: 30px">
+      <div class="topnav"> 
+	<a href="CS-II/CS-II.html">CS-II</a>
+	<a href="CS-I/CS-I.html">CS-I</a>
+	<a href="classes.html">Classes</a>
+	<a href="aboutMe.html">About Me</a>
+	<a class="active" href="index.html">Home</a>
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+      </div>
+      
+      <h2 style="font-family:Times New Roman; font-size: 110px; padding-left: 55px">Hi!</h2>
+    </div>
+    <h2 style="font-family:Times New Roman; font-size: 40px; padding-left: 55px">I'm Sophia Tran, welcome to my digital portfolio!</h2> 
+    <div class="norm">
+      <p style="font-family:Times New Roman; font-size: 30px; padding-left: 30px"> <a href="https://github.com/sophiaptran/sophiaptran.github.io">You can view my GitHub by clicking here</a> </p>
+      <br>
+      <br>
+      <p style="font-family:Times New Roman; font-size: 30px; padding-left: 30px"> <a href="https://sophiaptran.github.io/index.html">You can view my digital portfolio by clicking here</a> </p> 
+    </div>
+     <img src="photos/polaroid 2.png" alt="polaroid 2" style="float:right">
+     <img src="photos/polaroid 1.png" alt="polaroid 1" style="float:right">
+     
   </body>
 </html>
