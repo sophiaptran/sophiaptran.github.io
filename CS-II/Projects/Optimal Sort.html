@@ -15,6 +15,11 @@
           margin-top: 20em ;
       }
 
+      p.hangingindent {
+	  padding-left: 50px;
+	  text-indent: -50px;
+      }
+      
       img {
 	  display: block;
 	  margin-left: auto;
@@ -45,20 +50,51 @@
       <br>
 
       <p style="font-size:40px; text-align: center"> <b> Sort Analysis </b> </p>
-      <p style="font-size:30px; text-align: center"> <a href="https://github.com/sophiaptran/bubblesort/tree/master"> Bubble Sort Repository </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://github.com/sophiaptran/insertionsort/tree/master"> Insertion Sort Repository </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://github.com/sophiaptran/selectionsort/tree/master"> Selection Sort Repository </a> </p>
+      <p style="font-size:30px; text-align: center"> <a href="https://github.com/sophiaptran/bubblesort/tree/master">Bubble Sort Repository</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://github.com/sophiaptran/insertionsort/tree/master">Insertion Sort Repository</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://github.com/sophiaptran/selectionsort/tree/master">Selection Sort Repository</a> </p>
       <p style="font-size:30px; text-align: center"> <a href="https://docs.google.com/spreadsheets/d/1PuIkMyApJTCk8ZJ9elOKgk9CVt4N9Vy42im5uAGR49s/edit#gid=681812865">Spreadsheet</a> </p>
+
+      <img src="projectImages/sortgraphs.png" alt="graphs" width="1160" height="250">
 
       <br>
       <br>
-      
-      <p style="font-size:20px; text-indent:50px">
-	These graphs portray the effectiveness of the three sorts: bubble sort, insertion sort, and selection sort. Bubble sort works by comparing two elements at a time, switching them if the element on the right is less than the element on the left. Insertion sort works similarly, except it only looks at one element at a time. Lastly, selection sort works by finding the smallest element in the list and switching it to the front. I ran each sort through a variety of tests. I used each sort to alphabetically sort lists that were ordered, reverse ordered, and random. Furthermore, each type had lists of one word, ten words, one hundred words, one thousand words, ten thousand words, and one hundred thousand words. I ran each list five times through each sort, timing them to see which was the fastest. The results from these tests can be seen on the spreadsheet and the three graphs.
-      </p>
-      <p style="font-size:20px; text-indent:50px">
-	In all sorts, all lists with one word and ten words were very similar, each being about five milliseconds. In addition to this, all three graphs were also similar in the fact that they all grew exponentially, taking more time with the more words sorted. With this being said, the fastest sort was bubble sort. When sorting one hundred thousand words, bubble sort took about one thousand milliseconds while insertion sort and selection sort took about three hundred thousand milliseconds. Overall, these graphs were able to display the time each sort took, with bubble sort taking the shortest amount of time.
-      </p>
-      <br>  
       <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+      <div style="background-color: #ffffff; padding-right: 500px; padding-left: 500px; max-width:1000px; margin:auto; line-height:2; font-size:20px">
+		
+	<p style="font-size:20px; text-align:center"><b>Sort Analysis</b></p>
+	<p style="font-size:20px; text-align:center"> Sophia P. Tran </p>
+	<p style="font-size:20px; text-align:center"> Allen ISD STEAM Center </p>
+	<p style="font-size:20px; text-align:center"> Advanced Computer Science II </p>
+	<p style="font-size:20px; text-align:center"> Mr. Ben-Yaakov </p>
+	<p style="font-size:20px; text-align:center"> October 7, 2022 </p>
+	
+	<p class="top">
+	<p style="font-size:20px; line-height:2; text-align:center"><b>Sort Analysis</b></p>
+      <p style="font-size:20px; text-indent:50px">
+	These three graphs portray the effectiveness of the three sorts: bubble sort, insertion sort, and selection sort. In this project, I was tasked with finding the quickest algorithm to sort a list of words. To do so, I ran each sort through a variety of tests to keep this project as accurate as possible. I used each sort to alphabetically sort lists that were ordered, reverse ordered, and random. Furthermore, each type had lists of one word, ten words, one hundred words, one thousand words, ten thousand words, and one hundred thousand words. I ran each list five times through each sort, timing them to see which was the fastest. The results from these tests can be seen on the spreadsheet along with the three graphs.
+      </p>
+	<p style="font-size:20px; line-height:2; text-align:center"><b>Bubble Sort</b></p> 
+	<p style="font-size:20px; text-indent:50px">
+	  The first algorithm I tested was bubble sort. The results of these trials are seen in the first graph. Bubble sort works by comparing two elements at a time, switching them if the element on the right is less than the element on the left.
+	</p>
+	<p style="font-size:20px; line-height:2; text-align:center"><b>Insertion Sort</b></p>
+	<p style="font-size:20px; text-indent:50px">
+	  The second algorithm I tested was insertion sort. The results of these trials are seen in the second graph. Insertion sort works similarly to bubble sort, with the exception of only looking at one element at a time.
+	</p>
+	<p style="font-size:20px; line-height:2; text-align:center"><b>Selection Sort</b></p>
+	<p style="font-size:20px; text-indent:50px">
+	  The third and final algorithm I tested was selection sort. The results of these trials are seen in the third graph. Selection sort works by finding the smallest element in the list and switching it to the front.
+	</p>
+	<p style="font-size:20px; line-height:2; text-align:center"><b>Conclusion</b></p>
+	<p style="font-size:20px; text-indent:50px">
+	  In all sorts, all lists with one word and ten words were very similar, each being about five milliseconds. In addition to this, all three graphs were also similar in the fact that they all grew exponentially, taking more time with the more words sorted. With this being said, the fastest sort was bubble sort. When sorting one hundred thousand words, bubble sort took about one thousand milliseconds while insertion sort and selection sort took about three hundred thousand milliseconds. Overall, these graphs were able to display the time each sort took, with bubble sort generally taking the shortest amount of time.
+	  </p>
+      <p class="top">
+      </div>
       
       <hr class="solid">
       <p style="font-size:40px; text-align: center"> <b>  Optimal Sorting </b> </p>
