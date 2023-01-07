@@ -7,6 +7,17 @@
     <title>home</title>
     <style>
       body {
+	  min-height: 100vh;
+	  display: flex;
+	  flex-direction: column;
+      }
+      footer {
+	  margin-top: auto;
+      }
+      .floatRightClear {
+	  float:right;
+	  clear:right;
+	  margin-left:auto
       }
       hr.solid {
 	  border-top: 2px solid #000;
@@ -54,14 +65,14 @@
 	  background-color: #f5aaa0ff;
 	  color: white;
       }
-      .norm a{
+      .norm a {
 	  float: left;
 	  background-color:#ffffff;
 	  color: black;
 	  text-align: center;
 	  text-decoration: none;
       }
-      .norm a:hover{
+      .norm a:hover {
 	  background-color: #e6e6e6;
 	  color: white;
       }
@@ -72,9 +83,19 @@
 	  text-align: center;
 	  font-size: 25px;
       }
-      .button:hover{
+      .button:hover {
 	  background-color: #f5aaa0ff;
 	  color: white;
+      }
+      .column {
+	  float: right;
+	  width: 11%;
+	  padding: 5px;
+      }
+      .row::after {
+	  content: "";
+	  clear: both;
+	  display: table;
       }
       
     </style>
@@ -108,10 +129,19 @@
       <br>
       <p style="font-family:Times New Roman; font-size: 20px; padding-left: 35px"> <a href="https://sophiaptran.github.io/index.html">You can view my digital portfolio by clicking here</a> </p> 
     </div>
-    <img src="photos/polaroid%202.png" alt="polaroid 2" style="float:right">
-    <img src="photos/polaroid%201.png" alt="polaroid 1" style="float:right">
-    <p class="bottom"> </p>
-    <div class="button" onclick="history.back()">Go Back</div>
+    
+    <div class="row">
+        <div class="column">
+	  <img src="photos/polaroid%202.png" alt="polaroid 2" style="float:right; width: 330px;" class="floatRightClear">
+	</div>
+	  <div class="column">
+	    <img src="photos/polaroid%201.png" alt="polaroid 1" style="float:right; width: 350px;" class="floatRightClear">
+	  </div>
+    </div>
+    
+    <footer>
+      <div class="button" onclick="history.back()">Go Back</div>
+     </footer>
 </body>
 </html>
-BA
+

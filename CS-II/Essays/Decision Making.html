@@ -6,6 +6,12 @@
     <title>decision making</title>
     <style>
       body {
+	  min-height: 100vh;
+	  display: flex;
+	  flex-direction: column;
+      }
+      footer {
+	  margin-top: auto;
       }
       hr.solid {
 	  border-top: 2px solid #000;
@@ -97,8 +103,9 @@
       </div>
 
     <p class="top">
-      
-      <div class="button" onclick="history.back()">Go Back</div>
+      <footer>
+	<div class="button" onclick="history.back()">Go Back</div>
+	</footer>
   </body>
 </html> 
 

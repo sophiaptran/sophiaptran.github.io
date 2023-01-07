@@ -4,9 +4,14 @@
     <meta charset="utf-8">
     <title>bussiness plan</title>
     <style>
-      body{
+      body {
+	  min-height: 100vh;
+	  display: flex;
+	  flex-direction: column;     
       }
-
+      footer {
+	  margin-top: auto;
+      }
       hr.solid {
 	  border-top: 2px solid #000;
       }
@@ -69,6 +74,8 @@
     </div>
     <br>
     <br>
-    <div class="button" onclick="history.back()">Go Back</div>
+    <footer>
+      <div class="button" onclick="history.back()">Go Back</div>
+      </footer>
   </body>
 </html>

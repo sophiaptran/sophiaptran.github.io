@@ -4,7 +4,13 @@
     <meta charset="utf-8">
     <title>considered</title>
     <style>
-      body{
+      body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      }
+      footer {
+	  margin-top: auto;
       }
 
       hr.solid {
@@ -78,6 +84,8 @@
     </div>
     <br>
     <br>
-    <div class="button" onclick="history.back()">Go Back</div>
+    <footer>
+      <div class="button" onclick="history.back()">Go Back</div>
+      </footer>
   </body>
 </html>
