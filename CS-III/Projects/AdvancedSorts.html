@@ -61,22 +61,26 @@
 	
 	<p class="top">
 	<p style="font-size:20px; text-align:center; line-height:2;"><b>Adanced Sorts</b></p>
+
+	<p style="font-size:20px; text-indent:50px; line-height:2;">
+Sorting is a fundamental process in computer science that arranges items in a specific order, such as ascending or descending. Various sorting algorithms, like merge sort, quicksort, and heapsort, exist, each with its own efficiency and suitability for different scenarios. They all have their strengths and weaknesses, coming into play depending on the task. Sorting is a foundational concept in programming and data management, providing the basis for orderly data manipulation and analysis.
 	<p style="font-size:20px; line-height:2;"><b>Merge Sort</b></p>
 	<p style="font-size:20px; text-indent:50px; line-height:2;">
 Merge sort is a common and orderly algorithm that sorts numbers in an array. To do so, it follows the divide-and-conquer paradigm. The divide-and-conquer paradigm is a technique commonly used in computer science and mathematics, which breaks down a complex problem into smaller pieces, making them more manageable to solve. When given an unsorted array, merge sort, recursively breaks it down into smaller one-element sublists. Once fully broken down, merge sort then compares the two sublists to each other. When deciding how to merge the sublists together, the algorithm compares the first element of the left sublist with the first element of the right sublist. It then chooses the smaller of the two elements and places it in the new sorted sublist. 
 This process is recursively repeated until the entire array is whole and sorted. 
  </p>
-	<img src=mergeSort.webp alt="merge sort" width="500" height="300">
+	<img src=images/mergeSort.webp alt="merge sort" width="500" height="300">
 	
 	<p style="font-size:20px; line-height:2;"><b>Quicksort</b></p>
 	<p style="font-size:20px; text-indent:50px; line-height:2;">
 	  QuickSort is a popular algorithm commonly known for its efficiency and speed hence its name. Like merge sort, it also follows the divide-and-conquer paradigm, breaking the array into smaller subarrays, sorting each subarray independently, and then combining them to obtain a sorted array. To start, quicksort selects a pivotal element in the array or subarray. This pivot is what the sort revolves around as the overarching goal is to rearrange the elements in the array such that all elements less than the pivot come before it, and all elements greater than the pivot come after it. Typically, the pivot is the last element. QuickSort recursively selects the pivot for each array until the array is broken down into one-element arrays. Lastly, QuickSort combines these subarrays with the pivot in its final position, achieving a fully sorted array. </p>
-	 <img src=quickSort.png alt="quicksort" width="500" height="300"> 
+	 <img src=images/quickSort.png alt="quicksort" width="500" height="300"> 
 	<p style="font-size:20px; line-height:2;"><b>Heapsort</b></p>
 	<p style="font-size:20px; text-indent:50px; line-height:2;">
-HeapSort is also a comparison based algorithm. It works by first transforming the input array into a binary heap data structure, where the largest element is at the root. It then repeatedly removes the root element (the largest) and places it at the end of the sorted portion of the array. This process continues until the entire array is sorted. 
+	  Heap sort is also a comparison based algorithm that follows the divide-and-conquer paradigm. With this being said, it differs from the other two sorts as it organizes the elements in the set into a binary tree. It works by first transforming the input array into a binary heap data structure, where the largest element is at the root. Then, the largest element is swapped with the last element of the heap. After the swap, the algorithm decreases the heap size by one, which excludes the last element, as it is now in its correct sorted position. This process continues until the entire array is sorted. 
+
 </p>
-	<img src=heapSort.webp alt="heapsort" width="500" height="500">
+	<img src=images/heapSort.webp alt="heapsort" width="500" height="500">
 
 	<p style="font-size:20px; line-height:2;"><b>Time Complexity</b></p>
 	<p style="font-size:20px; text-indent:50px; line-height:2;">   
