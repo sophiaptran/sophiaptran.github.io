@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en" style="background: #ffffff">
+  <head>
+    <meta charset="utf-8">
+    <title>advanced sorts</title>
+    <style>
+      body {
+	  min-height: 100vh;
+	  display: flex;
+	  flex-direction: column;      
+      }
+      footer {
+	  margin-top: auto;
+      }
+      hr.solid {
+	  border-top: 2px solid #000;
+      }
+
+      p.top {
+	  margin-top: 20em;
+      }
+      
+      p.hangingindent {
+	  padding-left: 50px;
+	  text-indent: -50px;	  
+      }
+      
+      .button {
+	  background-color:#ffe2deff;
+	  color: black;
+	  padding: 15px 25px;
+	  text-align: center;
+	  font-size: 25px;
+      }
+      .button:hover{
+	  background-color: #f5aaa0ff;
+	  color: white;
+      }
+
+    </style>
+    
+  </head>
+  <body>
+    <div style="background-color: #ffe2deff; padding-right: 100px; padding-left: 100px">
+      <br>
+      <h1 style="font-size:60px; text-align:center">Advanced Sorts</h1>
+      <br>
+    </div>
+    <p class="top">
+
+      
+      <div style="background-color: #ffffff; padding-right: 500px; padding-left: 500px; max-width:1000px; margin:auto; line-height:2; font-size:20px">
+
+	<p style="font-size:20px; text-align:center"><b>Advanced Sorts</b></p>
+	<p style="font-size:20px; text-align:center"> Sophia P. Tran </p>
+	<p style="font-size:20px; text-align:center"> Allen ISD STEAM Center</p>
+	<p style="font-size:20px; text-align:center"> Advanced Computer Science III </p>
+	<p style="font-size:20px; text-align:center"> Mr. Ben-Yaakov </p>
+	<p style="font-size:20px; text-align:center"> September 1, 2023 </p> 
+	
+	<p class="top">
+	<p style="font-size:20px; text-align:center; line-height:2;"><b>Adanced Sorts</b></p>
+	<p style="font-size:20px; line-height:2;"><b>Merge Sort</b></p>
+	<p style="font-size:20px; text-indent:50px; line-height:2;">
+Merge sort is a common and orderly algorithm that sorts numbers in an array. To do so, it follows the divide-and-conquer paradigm. The divide-and-conquer paradigm is a technique commonly used in computer science and mathematics, which breaks down a complex problem into smaller pieces, making them more manageable to solve. When given an unsorted array, merge sort, recursively breaks it down into smaller one-element sublists. Once fully broken down, merge sort then compares the two sublists to each other. When deciding how to merge the sublists together, the algorithm compares the first element of the left sublist with the first element of the right sublist. It then chooses the smaller of the two elements and places it in the new sorted sublist. 
+This process is recursively repeated until the entire array is whole and sorted. 
+ </p>
+	<img src=mergeSort.webp alt="merge sort" width="500" height="300">
+	
+	<p style="font-size:20px; line-height:2;"><b>Quicksort</b></p>
+	<p style="font-size:20px; text-indent:50px; line-height:2;">
+	  QuickSort is a popular algorithm commonly known for its efficiency and speed hence its name. Like merge sort, it also follows the divide-and-conquer paradigm, breaking the array into smaller subarrays, sorting each subarray independently, and then combining them to obtain a sorted array. To start, quicksort selects a pivotal element in the array or subarray. This pivot is what the sort revolves around as the overarching goal is to rearrange the elements in the array such that all elements less than the pivot come before it, and all elements greater than the pivot come after it. Typically, the pivot is the last element. QuickSort recursively selects the pivot for each array until the array is broken down into one-element arrays. Lastly, QuickSort combines these subarrays with the pivot in its final position, achieving a fully sorted array. </p>
+	 <img src=quickSort.png alt="quicksort" width="500" height="300"> 
+	<p style="font-size:20px; line-height:2;"><b>Heapsort</b></p>
+	<p style="font-size:20px; text-indent:50px; line-height:2;">
+HeapSort is also a comparison based algorithm. It works by first transforming the input array into a binary heap data structure, where the largest element is at the root. It then repeatedly removes the root element (the largest) and places it at the end of the sorted portion of the array. This process continues until the entire array is sorted. 
+</p>
+	<img src=heapSort.webp alt="heapsort" width="500" height="500">
+
+	<p style="font-size:20px; line-height:2;"><b>Time Complexity</b></p>
+	<p style="font-size:20px; text-indent:50px; line-height:2;">   
+	  All merge sort, quicksort, and heapsort have a time complexity of O(n log n). As a result, they are all fast and efficient, making them popular choices for sorting large datasets. With this being said, merge sort is the most popular because heapsort lacks stability. Furthermore, in the worst-case scenario, quicksort’s time complexity can degrade to O(n^2) when a pivot is chosen poorly. </p>
+
+	<p style="font-size:20px; line-height:2;"><b>Space Complexity</b></p>   
+	<p style="font-size:20px; text-indent:50px; line-height:2;">   
+	Merge Sort typically has a space complexity of O(n) because it requires additional memory to store the temporary subarrays during the merging process. QuickSort's space complexity is dominated by the recursion stack. In the average case with good pivot selection, the space complexity is O(log n). However, in the worst case, the space complexity can be O(n). HeapSort has a space complexity of O(1) because it doesn't require additional memory proportional to the input size. </p>
+	<p class="top">
+
+
+    <p class="top">
+      <footer>
+	<div class="button" onclick="history.back()">Go Back</div>
+	</footer>
+  </body>
+</html> 
